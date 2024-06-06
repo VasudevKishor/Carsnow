@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Rolls Royce Homepage</title>
+<style>
+
+.header {
+  background-color: #c29999;
+  padding: 20px;
+  text-align: center;
+}
+  body, html {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    background-color: black; /* Set a background color to ensure visibility */
+  }
+  .video-container {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+  }
+  .video-container video {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+  .logo {
+    position: absolute;
+    top: 10px; /* Adjust top position as needed */
+    left: 52%;
+    transform: translateX(-200%);
+    width: 25px; /* Adjust width as needed */
+    height: auto;
+  }
+  .overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image: url("white_line.png"); /* Replace with your image path */
+    background-repeat: no-repeat;
+    background-position: center; /* Adjust position as needed */
+    opacity: 0.5; /* Adjust opacity for desired visibility */
+  }
+</style>
+</head>
+<body>
+
+<div class="video-container">
+  <video autoplay muted loop>
+    <source src="roll_record.mp4" type="video/mp4">
+  </video>
+  <img src="rr_symbol.jpg" class="logo" alt="Rolls Royce Logo">
+  <div class="overlay"></div>
+</div>
+<div class="header">
+    <h1>Header</h1>
+  </div>
+</body>
+</html>

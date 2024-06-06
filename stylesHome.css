@@ -1,0 +1,94 @@
+#clock{
+    color: white;
+    letter-spacing: 4px;
+    padding-left: 350px;
+    font-size: large;
+}
+#day{
+    color: white;
+    letter-spacing: 10px;
+    padding-left: 190px;
+    font-size: large;
+}
+#videoBackground1{
+    width :500px;
+    height:500px;
+}
+.section{
+    position:relative;
+    width: 100%;
+    height: 100vh;
+    display:flex;
+    align-items: center;
+    justify-content:first baseline;
+    overflow: hidden;
+}
+.section h1{
+    text-align: center;
+    font-size: 30px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: white;
+    padding: 20px;
+    margin: 15px;
+    z-index: 1;
+    opacity: 1;
+}
+.video-container{
+    position:absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+}
+.color-overlay{
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: lightblue;
+    width: 100%;
+    height: 100vh;
+    opacity: 0.1;
+}
+.h1Spl:hover{
+    font-size: 40px;
+    transition: all 1s;
+    text-transform: uppercase;
+}
+.menuDrop:hover{
+    margin-left: 200px;
+    text-transform: all 10s;
+}
+.heading{
+    color: white;
+    font-family: 'Courier New', Courier, monospace;
+    letter-spacing: 4px;
+}
+#logoFull{
+    font-size: 40px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin-left: 540px;
+}
+#menu{
+    background-color:rgb(34, 34, 34);
+    color:white;
+    border-radius: 20px;
+    height: 60px;
+    width: 200px;
+    text-align: center;
+    font-size: larger;
+    border-color: rgb(34, 34, 34);
+}
+#link :hover{
+    font-size: large;
+    transition: all 2s;
+}
+#list{
+    background-color: rgb(34, 34, 34);
+    color: white;
+    height: 60px;
+    border-color: rgb(34, 34, 34);
+    width: 200px;
+}
+#search{
+    background-color:rgb(34, 34, 34);
+    border-color: rgb(34, 34, 34);
+}
